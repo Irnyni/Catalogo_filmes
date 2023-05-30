@@ -40,14 +40,13 @@ li{
 }
 .cab ul{
     display: flex;
-    justify-content: space-around;
-     width: 100%;
-     min-width: 600px;
+    justify-content: space-between;
      height: 60px;
      align-items: center;
-     width: 90%;
+     width: 70%;
      margin-top: 5px;
      align-items: center;
+     margin-top: 10px;
 }
 
 .cab img{
@@ -136,7 +135,7 @@ a:hover{
 .lista ul li{
 
     width: 350px;
-    height: 550px;
+    height: 430px;
     background-color: rgb(2, 1, 1);
     border-radius: 10px;
     margin: 25px;
@@ -158,14 +157,22 @@ a:hover{
 
     text-align: center;
     background-size: cover;
-    -webkit-mask-image: linear-gradient(to top, transparent 1%, rgb(2, 2, 2) 25%);
+    -webkit-mask-image: linear-gradient(to top, transparent 1%, rgb(2, 2, 2) 40%);
     background-repeat: no-repeat;
-
+    transition-delay: 1s;
    
 
 }
 
+.lista img:hover{
 
+    border-radius: 10px;
+    width: 353px;
+    height: 410px;
+    transition: 1s;
+   
+
+}
 
 
 .dropbtn {
@@ -230,4 +237,59 @@ a:hover{
     width: 360px;
     height: auto;
     background-color: #590202;
+}
+
+.forms{
+    background-color: rgb(0, 0, 0);
+    height: auto;
+
+
+ 
+}
+.corpo{
+    background-color: rgb(0, 0, 0);
+    margin-top: 200px;
+    display: flex;
+    text-align: center;
+    color: #f1f1f1;
+    text-transform: capitalize;
+    flex-direction: column;
+
+    align-items: center ;
+    height: auto;
+    margin-bottom: 400px;
+
+}
+
+.corpo input,select,textarea{
+    
+    width: 60%;
+    height: 100px;
+    font-size: 30px;
+    align-items: center;
+    margin-bottom: 200px;
+    padding: 20px;
+}
+.corpo select, option{
+    
+    width: 60%;
+    height: 100px;
+    font-size: 30px;
+
+
+}
+
+.corpo label{
+
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+
+.corpo h1{
+
+    font-size: 100px;
+    margin-bottom: 100px;
 }
