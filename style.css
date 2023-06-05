@@ -68,7 +68,7 @@ li{
     width: 300px;
     background-color: #f4efef04;
     color: #ffffff;
-    border: 1px solid rgba(240, 234, 229, 0.174);
+    border: 1px solid rgba(163, 0, 0, 0.295);
    
 }
 
@@ -253,6 +253,7 @@ a:hover{
     height: auto;
     margin-bottom: 20rem;
 
+
 }
 
 .corpo input,select,textarea{
@@ -266,12 +267,17 @@ a:hover{
 }
 .corpo select, option{
     
-    width: 40%;
+    width: 15%;
     height: 50px;
     font-size: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
 
 
 }
+
 
 .corpo label{
 
@@ -297,4 +303,15 @@ a:hover{
     text-align: center;
     font-weight: bolder;
 
+}
+
+.corpo input,textarea,select{
+    background-color: #59020207;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+
+.corpo textarea{
+    height: 200px;
 }
