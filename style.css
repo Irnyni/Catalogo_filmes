@@ -379,8 +379,8 @@ a:hover{
   }
 
 .detail h1{
-   font-size: 90px;
-   margin-bottom: 100px;
+   font-size: 120px;
+   margin-bottom: 60px;
    align-self: center;
    
   
@@ -434,4 +434,5 @@ padding: 0;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10rem;
 }
