@@ -109,7 +109,7 @@ a:hover{
 
     height: 54rem;
     background-repeat: no-repeat;
-    background-size: cover;
+   
     -webkit-mask-image: linear-gradient(to top, transparent 10%, rgb(2, 2, 2) 100%);
     z-index: 3;
 
@@ -157,10 +157,9 @@ a:hover{
     border-radius: 10px;
     width: 23rem;
     height: 26rem;
-    background-size: cover;
+   
 
     text-align: center;
-    background-size: cover;
     -webkit-mask-image: linear-gradient(to top, transparent 1%, rgb(2, 2, 2) 40%);
     background-repeat: no-repeat;
     transition-delay: 1s;
@@ -360,19 +359,20 @@ a:hover{
 
   background-image: url("./Evil-Dead-Rise-1-scaled.jpg");
   background-repeat: no-repeat;
-  height: auto;
-  width: 100%;
-  background-size: cover;
-  background-color: #080505;
+  height: 90rem;
 
-  padding: 90px;
+  background-size:100% 100%;
+  background-color: #08010100;
+
+  padding-left: 90px;
+  padding-right: 80px;
+  padding-top: 100px;
   color: rgb(255, 255, 255);
   flex-direction: column;
   
 }
-.detail  {
-    width: 100%;
-    -webkit-mask-image: linear-gradient(to top, transparent 5%, rgb(10, 2, 2) 40%);
+.detail {
+    -webkit-mask-image: linear-gradient(to top, transparent 10%, rgb(0, 0, 0) 30%);
 
   }
 
