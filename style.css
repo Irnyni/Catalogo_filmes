@@ -15,6 +15,7 @@ body{
     display: flex;
     flex-direction:column; 
     background-color: #f1f1f1; 
+ 
 
 }
 
@@ -32,7 +33,7 @@ li{
     top: 0;
     border:1.7px solid #b699990a;
     font-size: 2rem;
-    width: 100%;
+    width: 90vw;
     z-index: 4;
     background-color: #2401010b;
    
@@ -42,7 +43,7 @@ li{
     justify-content: space-around;
      height: 5rem;
      align-items: center;
-     width: 80%;
+     width: 90vw;
      margin-top: 5px;
      align-items: center;
      margin-top: 10px;
@@ -100,7 +101,7 @@ a:hover{
 
 .destaques img{
 
-    height:57em;
+    height:90vh;
     width:80vw;
     background-repeat: no-repeat;
    
