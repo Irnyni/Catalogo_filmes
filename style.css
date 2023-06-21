@@ -15,7 +15,6 @@ body{
     display: flex;
     flex-direction:column; 
     background-color: #f1f1f1; 
- 
 
 }
 
@@ -33,7 +32,7 @@ li{
     top: 0;
     border:1.7px solid #b699990a;
     font-size: 2rem;
-    width: 90vw;
+    width: 100%;
     z-index: 4;
     background-color: #2401010b;
    
@@ -43,7 +42,7 @@ li{
     justify-content: space-around;
      height: 5rem;
      align-items: center;
-     width: 90vw;
+     width: 80%;
      margin-top: 5px;
      align-items: center;
      margin-top: 10px;
@@ -100,9 +99,9 @@ a:hover{
 }
 
 .destaques img{
-
-    height:auto;
-    width:80vw;
+    max-height: 80vh;
+    height: 8 dvh;
+    width:80 dvw;
     background-repeat: no-repeat;
    
     -webkit-mask-image: linear-gradient(to top, transparent 5%, rgb(2, 2, 2) 90%);
