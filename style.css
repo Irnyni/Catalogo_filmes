@@ -33,7 +33,7 @@ li{
     top: 0;
     border:1.7px solid #b699990a;
     font-size: 2rem;
-    width:80 dvw;
+    width:60 dvw;
     z-index: 4;
     background-color: #2401010b;
    
@@ -43,7 +43,7 @@ li{
     justify-content: space-around;
      height: 5rem;
      align-items: center;
-     width: 70%;
+     width: 90%;
      margin-top: 5px;
      align-items: center;
      margin-top: 10px;
@@ -139,6 +139,7 @@ a:hover{
     border-radius: 10px;
     margin: 25px;
     text-align: center;
+    background-color: #000000;
 
 
 }
