@@ -100,7 +100,7 @@ a:hover{
 
 .destaques img{
     max-height: 80vh;
-    min-height: 80vh;
+    min-height: 40vh;
     height: 8 dvh;
     width:80 dvw;
     background-repeat: no-repeat;
