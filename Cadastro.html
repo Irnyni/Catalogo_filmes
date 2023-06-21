@@ -12,7 +12,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <link rel="stylesheet" href="style.css">
-        <script src="./script.js"></script>
+        <script src="./script.js" defer></script>
         <title>Document</title>
     </head>
     <body>
@@ -35,14 +35,14 @@
           <h1>Cadastrar novo título</h1>
          
         <label for="título">Título </label>
-        <input type="text" name="" class="form-control" id="título">
+        <input type="text" name="" class="form-control" id="title">
 
         <label for="título">Sinopse</label>
-   <textarea id="msg"></textarea>
+   <textarea id="sinopse"></textarea >
 <div class="escolhas">
 
   <span class="selec"><label for="título">Modelo</label>
-    <select name="" class="form-control" id="">
+    <select name="" class="form-control" id="model">
       <option value="">Filme</option>
       <option value="">Série</option>
       <option value="">Novela</option>
@@ -54,7 +54,7 @@
 
   <span class="selec">
             <label for="título">Gênero</label>
-    <select name="" class="form-control" id="">
+    <select name="" class="form-control" id="gen">
       <option value="">Drama</option>
       <option value="">Terror</option>
       <option value="">Suspense</option>
@@ -65,7 +65,7 @@
 
   <span class="selec">
     <label for="faixa">Faixa etária</label>
-    <select name="" class="form-control" id="">
+    <select name="" class="form-control" id="faixa">
       <option value="">+12</option>
       <option value="">+16</option>
       <option value="">+18</option>
@@ -79,10 +79,10 @@
        
        
 <label for="">foto de capa</label>
-<input type="file" class="form-control">
+<input type="file" class="form-control" id="capa">
 <label for="">foto banner</label>
-<input type="file" class="form-control">
-<input type="button" id="btnsalvar" value="Salvar">
+<input type="file" class="form-control" id="banner">
+<input type="button" id="btnsalvar" value="Salvar" >
 
          </div>
 
@@ -97,6 +97,14 @@
         footer
         
         </footer>
+
+
+      <div class="lista" id="lista" >
+
+
+
+
+      </div>
   </div>
         
 
